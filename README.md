@@ -1,4 +1,4 @@
-#My Vin Conf
+#My Vim Conf
 
 ![Risultato](https://raw.githubusercontent.com/paranoiasystem/My-Vim-Conf/master/img.png)
 
