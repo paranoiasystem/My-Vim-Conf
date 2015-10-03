@@ -1,14 +1,5 @@
 #My Vin Conf
 
-file .vim rc
+![Risultato](https://raw.githubusercontent.com/paranoiasystem/My-Vim-Conf/master/img.png)
 
-set runtimepath+=~/.vim
-
-" My config file
-source ~/.vim/my_configs.vim
-
-====
-
-in bashrc add
-
-TERM='xterm-256color'
+launch setup.sh and enjoy :wink: !
