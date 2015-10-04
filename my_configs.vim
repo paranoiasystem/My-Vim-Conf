@@ -55,14 +55,27 @@ map <C-t> :NERDTreeToggle<cr>
 """""""""""""""""""""""""""""""
 " => vim-airline
 """""""""""""""""""""""""""""""
-
 " Enable vim-airline
 set laststatus=2
+
+" Set fonts
+let g:airline_powerline_fonts=1
+
+" Show git status
+let g:airline#extensions#branch#enabled=1
+let g:airline#extensions#branch#empty_message=''
+let g:airline#extensions#branch#displayed_head_limit=10
+let g:airline#extensions#branch#format=0
+
+" Config for tabs
+let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#tabline#fnamemod=':t'
+let g:airline_theme='papercolor'
+
 
 """""""""""""""""""""""""""""""
 " => Snippets Config
 """""""""""""""""""""""""""""""
-
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<tab>"
@@ -71,7 +84,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
-
 
 """""""""""""""""""""""""""""""
 " => Python Config

@@ -16,6 +16,7 @@ git clone https://github.com/hynek/vim-python-pep8-indent &> /dev/null
 git clone https://github.com/honza/vim-snippets &> /dev/null
 git clone https://github.com/SirVer/ultisnips &> /dev/null
 git clone https://github.com/davidhalter/jedi-vim &> /dev/null
+git clone https://github.com/tpope/vim-fugitive &> /dev/null
 echo "Confing .bashrc"
 printf "\nTERM=\'xterm-256color\'\n" >> ~/.bashrc
 echo "Finish"
