@@ -12,7 +12,7 @@ filetype plugin indent on
 """""""""""""""""""""""""""""""
 
 " Set history
-set history=500
+set history=1000
 
 " Set visible line number
 set number
@@ -72,24 +72,13 @@ let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#fnamemod=':t'
 let g:airline_theme='papercolor'
 
+"""""""""""""""""""""""""""""""
+" => vim-javascript
+"""""""""""""""""""""""""""""""
+let g:javascript_plugin_jsdoc = 1
 
 """""""""""""""""""""""""""""""
-" => Snippets Config
+" => vim-javascript
 """""""""""""""""""""""""""""""
-
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
-
-"""""""""""""""""""""""""""""""
-" => Python Config
-"""""""""""""""""""""""""""""""
-
-set tabstop=8
-set expandtab
-set softtabstop=4
-set shiftwidth=4
+let g:jsx_ext_required = 1
+let g:jsx_pragma_required = 1
